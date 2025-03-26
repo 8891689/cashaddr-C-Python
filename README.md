@@ -29,7 +29,7 @@ Decode failed (Expected to succeed), error code: -1
   Error message should indicate invalid checksum.
 ```
 ```
-python3 cash_address_converter.py qp63uahgrxged4z5jswyt5dn5v3lzsem6cy4spdc2h
+python cashaddr.py qp63uahgrxged4z5jswyt5dn5v3lzsem6cy4spdc2h
 [Debug] Prefix: bitcoincash
 [Debug] Base32 Part: qp63uahgrxged4z5jswyt5dn5v3lzsem6cy4spdc2h
 [Debug] 5-bit Array (packed): [0, 1, 26, 17, 28, 29, 23, 8, 3, 6, 8, 25, 13, 21, 2, 20, 18, 16, 14, 4, 11, 20, 13, 19, 20, 12, 17, 31, 2, 16, 25, 27, 26, 24, 4, 21, 16, 1, 13, 24, 10, 23]
@@ -59,6 +59,7 @@ payload_bytes: [0, 117, 30, 118, 232, 25, 145, 150, 212, 84, 148, 28, 69, 209, 1
 
 Re-encoded Address:
 bitcoincash:qp63uahgrxged4z5jswyt5dn5v3lzsem6cy4spdc2h
+
 ```
 # Sponsorship
 If this project has been helpful to you, please consider sponsoring. Your support is greatly appreciated. Thank you!
